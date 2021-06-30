@@ -1,0 +1,159 @@
+a {
+  color: #292929;
+}
+
+.contArea {
+  background: #fff;
+}
+
+.bg_menu01 {
+  background: url("https://www.mcdonalds.co.kr/uploadFolder/images/menu/2020/bg_visual_menu01.jpg")
+    50% 50% no-repeat;
+  display: flex;
+  margin-top: -30px;
+  position: relative;
+  min-height: 220px;
+  color: #292929;
+  text-align: left;
+}
+
+.bg_menu01 .bg_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1168px;
+  height: 200px;
+  margin: auto;
+}
+
+.bg_inner .bg__title {
+  color: inherit;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.bg_inner .bg__subtitle {
+  min-height: 34px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.9;
+}
+
+.bg__subtitle .reg {
+  font-size: 14px;
+}
+
+.navPath {
+  display: flex;
+  margin-top: 20px;
+}
+
+.navPath li {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.navPath li::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 100%;
+  background: #f5bd43;
+}
+
+.inner .tabtype01 {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 35px 0;
+}
+
+.inner .tabtype01 li {
+  margin: 0 40px;
+  color: #808080;
+}
+
+.tabtype01 .first-ch {
+  color: #db0007;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #db0007;
+}
+
+.prodBx {
+  width: 100%;
+}
+
+.prodBx .products {
+  color: #292929;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.prodBx .products::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: -2px 10px 0 0;
+  vertical-align: middle;
+  border-radius: 100%;
+  background: #f5bd43;
+}
+
+.bgMenuList {
+  width: 100%;
+}
+
+.bgMenuList li {
+  float: left;
+  width: 366px;
+  height: 352px;
+  margin: 0 35px 35px 0;
+}
+
+.bgMenuList li a {
+  display: block;
+  height: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #f8f8f8;
+  background: #f8f8f8;
+}
+
+.bgMenuList li a:hover {
+  border: 1px solid #f5bd43;
+  background: #fff;
+}
+
+.bgMenuList .bglist__imgbox,
+.bglist__imgbox img {
+  width: 306px;
+  height: 210px;
+}
+
+.bgMenuList .bglist__imgtext {
+  margin-top: 16px;
+}
+
+.bglist__imgtext .subtitle_ko {
+  display: block;
+  color: #292929;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.bglist__imgtext .subtitle_en {
+  display: block;
+  color: #808080;
+  margin-top: 13px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+}
