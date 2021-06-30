@@ -1,12 +1,12 @@
-@import "/css/reset.css";
+@import "css/reset.css";
 /* Component */
-@import "/css/component/header.css";
-@import "/css/component/footer.css";
-@import "/css/component/aside.css";
+@import "css/component/header.css";
+@import "css/component/footer.css";
+@import "css/component/aside.css";
 
 /* Screens */
-@import "/css/screens/main_menu.css";
-@import "/css/screens/bgSet_menu.css";
+@import "css/screens/main_menu.css";
+@import "css/screens/bgSet_menu.css";
 
 * {
   margin: 0;
